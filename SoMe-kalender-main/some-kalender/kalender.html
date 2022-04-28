@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="evo-calendar.min.css">
+    <link rel="stylesheet" href="evo-calendar.royal-navy.min.css">
+
+
+</head>
+<body>
+    
+<div class="hero">
+  <h6>Februar 2023 starter vores valgte periode derefter kører tidslinjen over i Marts <br> brug vores kalender til at finde information</h6>
+
+    <div id="calendar"></div>
+    
+   
+</div>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+<script src="evo-calendar.min.js"></script>
+
+<script>
+    $(document).ready(function() {
+    $('#calendar').evoCalendar({
+        theme:"Royal Navy",
+        calendarEvents: [
+      {
+        id: 'event1', // Event's ID (required)
+        name: "New Year", // Event name (required)
+        date: "January/1/2020", // Event date (required)
+        description:"Nytårs Aften",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+    
+    
+      // Instagram 
+
+
+      {
+        name: "Én måned til valget",
+        date: ["February/27/2023", "February/27/2023"], // Date range
+        description: "Nu er der en måned til at de studerende skal til at vælge valgfag"  , // Event description (optional)
+        type: "event",
+        color: "rgb(237, 16, 16)", // Event custom color (optional)
+      },
+      {
+        name: "TAKEOVER UX",
+        date: ["March/6/2023", "March/6/2023"], // Date range
+        description: "Takeover af en studerende på UX"  , // Event description (optional)
+        type: "event",
+        color: "rgb(183, 29, 210)" // Event custom color (optional)
+      },
+      {
+        name: "TAKEOVER UX",
+        date: ["March/6/2023", "March/6/2023"], // Date range
+        description: `<video controls>
+                     <source src="../videoer/danielfeed.mp4" type="video/mp4">` , // Event description (optional)
+        type: "event",
+        color: "rgb(183, 29, 210)" // Event custom color (optional)
+      },
+      {
+        name: "TAKEOVER UX",
+        date: ["March/6/2023", "March/6/2023"], // Date range
+        description: `<video controls>
+                     <source src="../videoer/emmalang.mp4" type="video/mp4">`  , // Event description (optional)
+        type: "event",
+        color: "rgb(183, 29, 210)" // Event custom color (optional)
+      },
+      {
+        name: "TAKEOVER FRONTEND",
+        date: ["March/13/2023", "March/13/2023"], // Date range
+        description: "TAKEOVER FRONTEND | 3 dage", // Event description (optional)
+        type: "event",
+        color: "rgb(183, 29, 210)" // Event custom color (optional)
+      },
+      {
+        name: "TAKEOVER CONTENT",
+        date: ["March/20/2023", "March/20/2023"], // Date range
+        description: "TAKEOVER CONTENT | 3 dage", // Event description (optional)
+        type: "event",
+        color: "rgb(183, 29, 210)" // Event custom color (optional)
+      },
+      {
+        name: "Oplæg om linjerne",
+        date: ["March/24/2023", "March/24/2023"], // Date range
+        description: "I dag er der oplæg om de forskellige linjer v. lærerne", // Event description (optional)
+        type: "event",
+        color: "rgb(183, 29, 210)" // Event custom color (optional)
+      },
+      {
+        name: "HUSK! Fristen er imorgen",
+        date: ["March/26/2023", "March/26/2023"], // Date range
+        description: "I morgen er det tid til at vælge for de studerende. Der skal vælges valgfag kl 12.", // Event description (optional)
+        type: "event",
+        color: "rgb(183, 29, 210)" // Event custom color (optional)
+      },
+      {
+        name: "I dag skal der vælges valgfag (feed + stories) ",
+        date: ["March/27/2023", "March/27/2023"], // Date range
+        description: "I dag skal der vælges valgfag (feed + stories)", // Event description (optional)
+        type: "event",
+        color: "rgb(183, 29, 210)" // Event custom color (optional)
+      },
+      {
+        name: "Billede af feed ",
+        date: ["March/27/2023", "March/27/2023"], // Date range
+        description: ` <img src="../billeder/yessfeed.png" width="250" height="350"> ` , // Event description (optional)
+        type: "event",
+        color: "rgb(183, 29, 210)" // Event custom color (optional)
+      },
+      {
+        name: "Video af stories",
+        date: ["March/27/2023", "March/27/2023"], // Date range
+        description: `<video controls>
+                     <source src="../videoer/yess_story.mp4" type="video/mp4">`, // Event description (optional)
+        type: "event",
+        color: "rgb(183, 29, 210)" // Event custom color (optional)
+      },
+     
+     
+     
+     
+     
+     
+      // LinkedIn 
+      {
+        name: "Studerende som har valgt forskellige linjer",
+        date: ["March/14/2023", "March/14/2023"], // Date range
+        description: "Med nogle studerende som har valgt de forskellige linjer "  , // Event description (optional)
+        type: "event",
+        color: "rgb(237, 16, 16)" // Event custom color (optional)
+      },
+      {
+        name: "Studerende som har valgt forskellige linjer",
+        date: ["March/14/2023", "March/14/2023"], // Date range
+        description: ` <img src="../billeder/karoleaa.png" width="250" height="350"> `  , // Event description (optional)
+        type: "event",
+        color: "rgb(237, 16, 16)" // Event custom color (optional)
+      },
+      {
+        name: "Motiongraphic om Frontend",
+        date: ["March/21/2023", "March/21/2023"], // Date range
+        description: "Motiongraphic om Frontend "  , // Event description (optional)
+        type: "event",
+        color: "rgb(237, 16, 16)" // Event custom color (optional)
+      },
+      {
+        name: "Motiongraphic om Frontend",
+        date: ["March/21/2023", "March/21/2023"], // Date range
+        description: `<video controls>
+                     <source src="../videoer/emmafeed.mp4" type="video/mp4">`  , // Event description (optional)
+        type: "event",
+        color: "rgb(237, 16, 16)" // Event custom color (optional)
+      },
+  
+      // TikTok
+
+      {
+        name: "Intro Frontend",
+        date: ["March/1/2023", "March/1/2023"], // Date range
+        description: "Informationer om Frontend-linjefaget"  , // Event description (optional)
+        type: "event",
+        color: "rgb(53, 246, 59)" // Event custom color (optional)
+      },
+      {
+        name: "Frontend TikTok",
+        date: ["March/3/2023", "March/3/2023"], // Date range
+        description: `<video controls>
+                     <source src="../videoer/frontend-tik-tok.mp4" type="video/mp4">`  , // Event description (optional)
+        type: "event",
+        color: "rgb(53, 246, 59)" // Event custom color (optional)
+      },
+      {
+        name: "Intro Content",
+        date: ["March/8/2023", "March/8/2023"], // Date range
+        description: "User experience video er oppe", // Event description (optional)
+        type: "event",
+        color: "rgb(53, 246, 59)" // Event custom color (optional)
+      },
+      {
+        name: "Content TikTok",
+        date: ["March/10/2023", "March/10/2023"], // Date range
+        description: `<video controls>
+                     <source src="../videoer/emmastory.mp4" type="video/mp4">`  , // Event description (optional)
+        type: "event",
+        color: "rgb(53, 246, 59)" // Event custom color (optional)
+      },
+      {
+        name: "Intro UX",
+        date: ["March/15/2023", "March/15/2023"], // Date range
+        description: "Introduktion til User experience", // Event description (optional)
+        type: "event",
+        color: "rgb(53, 246, 59)" // Event custom color (optional)
+      },
+      {
+        name: "UX TikTok",
+        date: ["March/17/2023", "March/17/2023"], // Date range
+        description: "User experience video ", // Event description (optional)
+        type: "event",
+        color: "rgb(53, 246, 59)" // Event custom color (optional)
+      },
+      {
+        name: "UX TikTok",
+        date: ["March/17/2023", "March/17/2023"], // Date range
+        description:`<video controls>
+                     <source src="../videoer/yessstory.mp4" type="video/mp4">`, // Event description (optional)
+        type: "event",
+        color: "rgb(53, 246, 59)" // Event custom color (optional)
+      }
+    ]
+
+
+    })
+})
+</script>
+
+</body>
+</html>

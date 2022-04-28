@@ -1,0 +1,254 @@
+*{
+    box-sizing: border-box;
+
+    
+}
+
+body{
+    background-color: rgb(250, 250, 250);
+}
+
+
+
+.logo img{
+    max-width: 20%;
+    padding: 10px;
+    
+}
+
+.header{
+    min-height: 50vh;
+    max-width: 95%;
+    background: rgb(195,195,195);
+background-image: linear-gradient(180deg,  rgba(61, 59, 59, 0.866) 0%, rgba(5, 5, 5, 0.521) 0%),url(../some-kalender/login-baggrund.jpg); 
+    background-position: center;
+background-size: cover;
+position: relative;
+background-attachment: fixed;
+margin: 0 auto;
+
+
+
+
+}
+
+
+.text-box{
+    width: 100%;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 37.5%;
+    left: 50%;
+    transform: translate(-50%,-5%);
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+.undertekst h1{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.undertekst p{
+    display: flex;
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+
+.col{
+    flex-basis: 50%;
+    text-align: center;
+}
+
+.card{
+    width: 45vw;
+    height: 300px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    margin: 10px 15px;
+    background-image:  linear-gradient(180deg,  rgba(61, 59, 59, 0.866) 0%, rgba(5, 5, 5, 0.521) 0%),url(../some-kalender/card-1.png);
+    background-position: center;
+    background-size: cover;
+    transition: all 1s ease-out;
+    
+
+}
+.card2{
+    width: 45vw;
+    height: 300px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    margin: 10px 15px;
+    background-image:  linear-gradient(180deg,  rgba(61, 59, 59, 0.866) 0%, rgba(5, 5, 5, 0.521) 0%),url(../some-kalender/card-2.png);
+    background-position: center;
+    background-size: cover;
+    transition: all 1s ease-out;
+    
+
+}
+.card3{
+    width: 45vw;
+    height: 300px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    margin: 10px 15px;
+    background-image:  linear-gradient(180deg,  rgba(61, 59, 59, 0.866) 0%, rgba(5, 5, 5, 0.521) 0%),url(../some-kalender/card-3.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: all 1s ease-out;
+    
+
+}
+.card4{
+    width: 45vw;
+    height: 300px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    margin: 10px 15px;
+    background-image:  linear-gradient(180deg,  rgba(61, 59, 59, 0.866) 0%, rgba(5, 5, 5, 0.521) 0%),url(../some-kalender/card-4-anden.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: all 1s ease-out;
+    
+
+}
+.card5{
+    width: 92vw;
+    height: 300px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    margin: 10px 15px;
+    background-image:  linear-gradient(180deg,  rgba(61, 59, 59, 0.866) 0%, rgba(5, 5, 5, 0.521) 0%),url(../some-kalender/designmanual.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: all 1s ease-out;
+}
+
+.card h5{
+    color: white;
+    font-size: 35px;
+    padding-top: 20px;
+}
+.card2 h5{
+    color: white;
+    font-size: 35px;
+    padding-top: 20px;
+}
+.card3 h5{
+    color: white;
+    font-size: 35px;
+    padding-top: 20px;
+}
+.card4 h5{
+    color: white;
+    font-size: 35px;
+    padding-top: 20px;
+}
+
+.card5 h5{
+    color: white;
+    font-size: 35px;
+    padding-top: 40px;
+}
+
+.card p{
+    color: white;
+    font-size: 16px;
+}
+.card2 p{
+    color: white;
+    font-size: 16px;
+}
+.card3 p{
+    color: white;
+    font-size: 16px;
+}
+.card4 p{
+    color: white;
+    font-size: 16px;
+}
+.card5 p{
+    color: white;
+    font-size: 16px;
+}
+.card:hover{
+   
+    transform: scale(1);
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.74);
+    
+}
+.card2:hover{
+   
+    transform: scale(1);
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.74);
+    
+}
+.card3:hover{
+   
+    transform: scale(1);
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.74);
+    
+}
+.card4:hover{
+   
+    transform: scale(1);
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.74);
+    
+}
+
+.card5:hover{
+   
+    transform: scale(1);
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.74);
+    
+}
+.layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    transition: 0.5s;
+    position: absolute;
+    
+}
+
+.layer h3{
+width: 100%;
+font-weight:500;
+color: rgb(255, 255, 255);
+font-size: 26px;
+bottom: 0;
+text-align: center;
+opacity: 0;
+position: absolute;
+transition: 0.5s;
+
+}
+.layer:hover h3{
+    bottom: 20%;
+    opacity: 1;
+
+}
+
+.sygt {
+    text-align: center;
+}
+
+.banr {
+    width: 80%;
+}
